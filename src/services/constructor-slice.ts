@@ -72,8 +72,6 @@ const constructorSlice = createSlice({
       );
     },
     resetConstructor: (state) => {
-      state.bun = null;
-      state.ingredients = [];
       state.orderModalData = null;
     },
     moveIngredient: (
